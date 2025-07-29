@@ -2,4 +2,3 @@ data/*
 .DS_Store
 .idea
 *.wav
-turn_evaluation/

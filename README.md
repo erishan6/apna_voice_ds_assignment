@@ -35,6 +35,4 @@ I measured critical performance indicators including generation latency and audi
 using PESQ scores, with all results systematically exported to CSV files for analysis. 
 Throughout both VAD and TTS evaluations, I implemented standardized assessment functions 
 to ensure consistent metric calculations and created visual comparisons of the results 
-through bar chart visualizations. This work demonstrates my approach to evaluating voice 
-processing systems holistically, addressing both speech detection and synthesis components 
-with quantifiable metrics relevant to real-time streaming applications.
+through bar chart visualizations. 

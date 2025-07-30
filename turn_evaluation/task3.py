@@ -14,7 +14,7 @@ import asyncio
 logging.set_verbosity(logging.INFO)
 
 # Initialize model
-test_path = "../data/archive/voxconverse_dev_wav/audio/tfvyr.wav"
+test_path = "../data/archive/voxconverse_dev_wav/audio/szsyz.wav"
 audio, sr = librosa.load(test_path, sr=16000)
 
 # Original code:

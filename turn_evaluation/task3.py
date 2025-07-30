@@ -50,7 +50,7 @@ vad_wrapper = PipecatCoreMLSmartTurnVADWrapper(
 chuck_size_list = [256, 512, 1024]
 speech_timestamps_list = []
 for chuck_size in chuck_size_list:
-    speech_timestamps = asyncio.run(vad_wrapper.get_speech_timestamps(audio, chunk_size_samples=512))
+    speech_timestamps = asyncio.run(vad_wrapper.get_speech_timestamps(audio, chuck_size))
     print("\n--- Detected Speech Segments ---")
     if not speech_timestamps:
         print("No speech detected.")
